@@ -1,0 +1,29 @@
+.timer {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.field {
+  width: 100px;
+  font-family: "Amatic SC";
+  font-size: 36px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.field:not(:last-child) {
+  margin-right: 20px;
+}
+
+.value {
+  font-size: 120px;
+  color: #006400;
+}
+
+.label {
+  color: #008000;
+  position: absolute;
+  bottom: -20px;
+}
